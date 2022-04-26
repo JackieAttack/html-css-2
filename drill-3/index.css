@@ -1,0 +1,21 @@
+
+#top-box {
+    display: block;
+    width: auto;
+    background-color: lightgray;
+    height: 120px;
+}
+
+ #text-box {
+    display: block;
+    margin: 80px;
+    height: 400px;
+}
+
+#colors {
+    display: block;
+}
+
+.color-box {
+    display: block;
+}
