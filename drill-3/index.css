@@ -6,10 +6,25 @@
     height: 120px;
 }
 
+#blue-box {
+    background-color: royalblue;
+    height: 80px;
+    width: 80px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
  #text-box {
     display: block;
-    margin: 80px;
-    height: 400px;
+    margin: 50px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
 }
 
 #colors {
@@ -18,4 +33,22 @@
 
 .color-box {
     display: block;
+    height: 200px;
+    width: auto;
+}
+
+#color-1 {
+    background-color: royalblue;
+}
+
+#color-2 {
+    background-color: aquamarine;
+}
+
+#color-3 {
+    background-color: rgb(211, 255, 124);
+}
+
+#color-4 {
+    background-color: yellow;
 }
